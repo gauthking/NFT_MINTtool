@@ -1,3 +1,5 @@
+## NOT A Big Brain CODE XD, just a GUI Automator tool made using pyautogui python library.
+
 ## THIS CODE IS A PERSONAL PROJECT AND DO NOT USE IT AS IT HAS GUI COORDINATES SET TO SYNC WITH A PARTICULAR SCREEN RESOLUTION
 import pyautogui
 from time import sleep
@@ -6,6 +8,7 @@ import os
 # make sure you reset the postion coordinates by using the postion checker tool (positionch.py file), run the file and note down the screen coordinates and update the below variables with it
 ## imp!!! THIS PROGRAM IS OPTIMIZED FOR SCREEN RESOLUTIONS OF 1920x1080 px.. AND SEVERAL PROPERTIES HAVE BEEN SET IN SUCH A WAY THAT IT MATCHES TO THE PROPERTY OF MY NFT COLLECTION
 
+# Function to check for Background Color of the NFT
 def bgchecker(k1):
     s = ''
     if k1 == (225, 143, 100):
@@ -24,7 +27,7 @@ def bgchecker(k1):
         s += "None"
     return s
 
-
+# Function to check for Body Color of the NFT
 def bodychecker(b1):
     s1 = ''
     if b1 == (46, 220, 80):
@@ -49,6 +52,7 @@ def bodychecker(b1):
         s1 += 'None'
     return s1
 
+# Function to check for Hat Color of the NFT
 def hatchecker(h1):
     s2 = ''
     if h1 == (85, 94, 142):
@@ -75,6 +79,7 @@ def hatchecker(h1):
         s2 += 'None'
     return s2
 
+# Function to check for Bow-Tie Color of the NFT
 def bowtiechecker(t1):
     s3 = ''
     if t1 == (56, 177, 74):
@@ -91,6 +96,7 @@ def bowtiechecker(t1):
         s3 += 'None'
     return s3 
 
+# Function to check for Glass Color of the NFT
 def glasseschecker(g1):
     s4 = ''
     if g1 == (255, 255, 255):
@@ -143,7 +149,7 @@ files = os.listdir(
 index = 0
 n = 483
 
-
+##MAIN GUI PROGRAM
 while nft_num != 0:
     sleep(5)
     pyautogui.click(create_coorX, create_coorY)
@@ -274,6 +280,8 @@ while nft_num != 0:
     sleep(2)
     pyautogui.click(108, 67)
     sleep(10)
+
+    ##PRINTS THE NFT MINT STATUS
     print("-----NFT UPLOADED TO OPENSEA!!------\nFile Info ::\nNFT File Original Name :",files[index-1],"\nMarket Name : ", 'MicroPuppiesNFT'+''+'#'+str(n-1), "\nProperties::","\nBackground Properties : ",bg,',',k,'\nBody Properties: ',body,',',b,"\nHat Properties : ",hat,',',h,"\nBowTie Properties : ",bt,',',t,"\nGlasses Properties : ",gl,',',g)
     nft_num -= 1                    
 
