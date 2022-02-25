@@ -10,6 +10,6 @@ So this simple python GUI Automation program was created to MINT my NFTs on Open
 
 ***THIS REPO CONTAINS 2 .PY FILES in which one is the MINTING TOOL and other file uses the Python PIL library to make unlockable contents for each item of the NFT Collection.***
 
-**Official Collection LINK - ** [Text](https://opensea.io/collection/micropuppiesnft)
+**Official Collection LINK - ** [Click Here](https://opensea.io/collection/micropuppiesnft)
 
 ![Alt Text](puppy.gif)
