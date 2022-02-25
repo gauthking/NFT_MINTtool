@@ -9,4 +9,4 @@ THIS CODE SUCCESSFULLY RAN AND UPLOADED THE 500- ITEMS TO THE OPENSEA MARKETPLAC
 THIS REPO CONTAINS 2 .PY FILES in which one is the MINTING TOOL and other file uses the Python PIL library to make unlockable contents for each item of the NFT Collection.
 
 
-</br><img src="puppy.gif" width="500" height="500" />
+<img src="puppy.gif" width="500" height="500" style = "align-center" />
